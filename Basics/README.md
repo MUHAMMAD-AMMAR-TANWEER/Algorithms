@@ -20,3 +20,24 @@ To check if Go is installed properly, follow these steps:
 You will see the following output.
 
 `go version go1.22.2 windows/amd64`
+
+## Installation on macOS
+
+1. Download the Go installer for macOS from the [here](https://go.dev/dl/go1.22.2.darwin-amd64.pkg).
+2. Open the package file you downloaded and follow the prompts to install Go.
+3. The package installs the Go distribution to `/usr/local/go`.
+4. The package should automatically add the `/usr/local/go/bin` directory to your PATH environment variable. If not, you may need to add it manually.
+5. Restart any open Terminal sessions for the changes to take effect.
+
+## Verifying Installation
+
+To check if Go is installed properly, follow these steps:
+
+1. Open Terminal.
+2. Type the following command:
+
+`go version`
+
+You will see the something like below.
+
+` go version go1.22.2 darwin/amd64`
